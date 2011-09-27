@@ -1,0 +1,184 @@
+/* ~~~INIT~~~ */
+
+* {
+margin:0; 
+padding:0;
+}
+
+nav, section, header, footer {
+display:block;
+}
+
+.clear {
+clear:both;
+}
+
+.title {
+color:#d24330;
+font-size:14px;
+}
+	
+body {
+background:url(../media/background.jpg) repeat-x white;
+font-family:tahoma, arial;
+font-size:12px;
+}
+
+#banner_left, #banner_right, #prev, #caption, #next {
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+}
+	
+/* ~~~STYLE~~~ */
+
+	/* ---HEADER--- */
+	
+	header {
+	margin:auto;
+	width:400px;
+	text-align:center;
+	}
+	
+	
+	
+	/* ---CONTENT--- */
+	
+	#content {
+	width:960px;
+	margin:auto;
+	}
+		
+	#menu {
+	width:960px;
+	height:77px;
+	background:url(../media/nav.png) no-repeat;
+	}
+		
+		nav {
+		text-align:center;
+		padding-top:25px;
+		}
+		
+		nav li {
+		display:inline;
+		margin-left:15px;
+		}
+		
+		nav li a {
+		color:white;
+		text-decoration:none;
+		font-size:18px;
+		font-weight:bold;
+		text-transform:uppercase;
+		}
+		
+	#comic {
+	margin:auto;
+	width:940px;
+	background:white;
+	}
+	
+		#caption {
+		width:600px;
+		height:450px;
+		background:#ededed;
+		}
+		
+		#next {
+		width:110px;
+		margin:200px 0 0 40px;
+		}
+		
+		
+		#prev {
+		width:110px;
+		margin:200px 0 0 50px;
+		}
+		
+		#next a, #prev a {
+			color:white;
+			background:#272727;
+			text-decoration:none;
+			padding:10px;
+			font-size:18px;
+			text-transform:uppercase;
+			}
+	
+	#random {
+	position:relative;
+	left:400px;
+	top:20px;
+	z-index:10;
+	}
+	
+	#random a {
+	color:white;
+	background:#272727;
+	text-decoration:none;
+	padding:10px;
+	font-size:22px;
+	text-transform:uppercase;
+	}
+	
+	#comic_banner {
+	background:#d24330;
+	padding:10px;
+	color:white;
+	}
+	
+	#banner_left {
+	width:720px;
+	text-transform:uppercase;
+	padding-top:10px;
+	}
+
+	#banner_right {
+	width:150px;
+	}
+	
+	/* ---FOOTER--- */
+	
+	footer {
+	margin:auto;
+	width:940px;
+	background:#333;
+	color:white;
+	}
+	
+	#footer_left {
+	width:400px;
+	float:left;
+	padding:20px;
+	}
+	
+	#footer_right {
+	width:400px;
+	float:right;
+	padding:20px;
+	}
+	
+	#footer_right li {
+	list-style-type:none;
+	}
+	
+	#footer_right li a {
+	font-size:16px;
+	color:white;
+	}
+	
+	#footer_right li a:hover {
+	text-decoration:none;
+	}
+	
+	.copyright {
+	margin-top:10px;
+	}
+	
+	.copyright a {
+	color:#d24330;
+	text-decoration:none;
+	}
+		
+	
